@@ -1,0 +1,193 @@
+# Hugo 配置文件
+
+# 作为网站发布时的完整 URL
+baseURL: "https://note.qpy.wiki/"
+
+# 网站标题
+title: "QuecPigeon Notes"
+
+# 是否生成 robots.txt 文件
+enableRobotsTXT: true
+
+# 为每个页面启用 Git 追踪
+# 使用 git 提交时间作为页面最后更改时间
+enableGitInfo: true
+
+# 启用 Emoji 简码支持
+enableEmoji: false
+
+# 网站内容是否包含中日韩语言
+# 会影响字数计算的正确性
+hasCJKLanguage: true
+
+# services:
+# 谷歌统计
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
+
+# 输出设置
+# 官网暂无相关描述，略
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+# 默认语言
+defaultContentLanguage: zh-cn
+
+# languages:
+#   zh-cn:
+#     languageName: 简体中文
+#     languageCode: zh-CN
+#     weight: 1
+#     title: Hextra
+
+module:
+  # Hugo 版本要求
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+
+# Markdown 渲染设置
+# 通常无需更改
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+# 启用内联（行内）短代码
+# emoji 等功能需要用到
+enableInlineShortcodes: true
+
+menu:
+  # 右上角的菜单项设置
+  # weight 用于排序
+  main:
+    # 类型一：本地文件夹和文件
+    - identifier: documentation
+      name: Documentation
+      pageRef: /docs
+      weight: 10
+    # 类型二：搜索框
+    - name: Search
+      weight: 50
+      params:
+        type: search
+    # 类型三：外部链接
+    - name: GitHub
+      weight: 60
+      url: "https://github.com/imfing/hextra"
+      params:
+        icon: github
+
+  # 左侧边栏底部的固定项目
+  sidebar:
+    # 不可点击的标题，作为分隔符使用
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 10
+    # 本地页面
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 20
+    # 外部链接
+    - identifier: hugoDocs
+      name: "Hugo Docs ↗"
+      url: "https://gohugo.io/documentation/"
+      weight: 30
+
+params:
+  description: A personal documentation site to speed up QuecPython development.
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      # width: 40
+      # height: 20
+      # link: /
+    # 顶栏宽度
+    width: wide
+
+  # 页面设置
+  page:
+    # 页面宽度
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  # 颜色主题配置
+  theme:
+    # light | dark | system
+    # 根据系统的暗黑模式自动启用
+    default: system
+    # 是否显示暗黑模式切换按钮
+    displayToggle: true
+
+  # 页脚，显示版权和其他信息
+  # 具体内容需要在 i18n 文件夹中编辑
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    # 底栏宽度
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # 搜索功能
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # 搜索范围设置
+      # index page by: content | summary | heading | title
+      index: content
+      # 关键词匹配方式
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  # 启用 GitHub 的编辑页面功能
+  editURL:
+    enable: false
+    base: ""
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+  comments:
+    enable: false
+    type: giscus
+
+    # https://giscus.app/
+    giscus:
+      repo: imfing/hextra
+      repoId: R_kgDOJ9fJag
+      category: General
+      categoryId: DIC_kwDOJ9fJas4CY7gW
+      # mapping: pathname
+      # strict: 0
+      # reactionsEnabled: 1
+      # emitMetadata: 0
+      # inputPosition: top
+      # lang: en
