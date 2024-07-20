@@ -6,6 +6,9 @@ baseURL: "https://note.qpy.wiki/"
 # 网站标题
 title: "QuecPigeon Notes"
 
+# 网站主题
+theme: hextra
+
 # 是否生成 robots.txt 文件
 enableRobotsTXT: true
 
@@ -20,6 +23,17 @@ enableEmoji: false
 # 会影响字数计算的正确性
 hasCJKLanguage: true
 
+# 路径优化
+# 替换路径中的特殊字符
+removePathAccents: true
+
+# 摘要长度
+# 通常用于博客，文章摘要展示出的长度
+summaryLength: 70
+
+# 生成静态页面时是否保留结尾的 .html 后缀
+uglyURLs: false
+
 # services:
 # 谷歌统计
 #   googleAnalytics:
@@ -32,8 +46,12 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
+# 时区
+timeZone: Asia/Shanghai
+
 # 默认语言
 defaultContentLanguage: zh-cn
+languageCode: zh-cn
 
 # languages:
 #   zh-cn:
@@ -41,6 +59,21 @@ defaultContentLanguage: zh-cn
 #     languageCode: zh-CN
 #     weight: 1
 #     title: Hextra
+
+# 编译设置
+build:
+  # 编译信息统计
+  buildStats:
+    disableClasses: false
+    disableIDs: false
+    disableTags: false
+    enable: true
+
+# 显式定义 404 页面
+redirects:
+  - from: /**
+    status: 404
+    to: /404.html
 
 module:
   # Hugo 版本要求
@@ -66,18 +99,17 @@ menu:
   # weight 用于排序
   main:
     # 类型一：本地文件夹和文件
-    - identifier: documentation
-      name: Documentation
+    - name: 文档
       pageRef: /docs
       weight: 10
     # 类型二：搜索框
     - name: Search
-      weight: 50
+      weight: 20
       params:
         type: search
     # 类型三：外部链接
     - name: GitHub
-      weight: 60
+      weight: 30
       url: "https://github.com/imfing/hextra"
       params:
         icon: github
@@ -107,9 +139,10 @@ params:
   navbar:
     displayTitle: true
     displayLogo: true
+    # 页面左上角的 logo
     logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
+      path: favicon.svg
+      dark: favicon-dark.svg
       # width: 40
       # height: 20
       # link: /
