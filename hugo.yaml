@@ -99,17 +99,23 @@ menu:
   # weight 用于排序
   main:
     # 类型一：本地文件夹和文件
-    - name: 文档
-      pageRef: /docs
+    - name: 入门文档
+      pageRef: /beginner
       weight: 10
+    - name: 技术笔记
+      pageRef: /notes
+      weight: 20
+    - name: 个人随笔
+      pageRef: /blog
+      weight: 30
     # 类型二：搜索框
     - name: Search
-      weight: 20
+      weight: 60
       params:
         type: search
     # 类型三：外部链接
     - name: GitHub
-      weight: 30
+      weight: 70
       url: "https://github.com/imfing/hextra"
       params:
         icon: github
@@ -118,13 +124,13 @@ menu:
   sidebar:
     # 不可点击的标题，作为分隔符使用
     - identifier: more
-      name: More
+      name: 更多
       params:
         type: separator
       weight: 10
     # 本地页面
     - identifier: about
-      name: "About"
+      name: "关于"
       pageRef: "/about"
       weight: 20
     # 外部链接

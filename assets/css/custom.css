@@ -1,4 +1,9 @@
 .content {
-  font-family: "Cascadia Mono", "Lucida Console", "LXGW WenKai Screen", "等线",
+  font-family: "LXGW Bright", "Cascadia Code", "Lucida Console", "等线",
     "Microsoft YaHei", PingFangSC-Regular, sans-serif;
+}
+
+:root {
+  --primary-hue: 357deg;
+  --primary-saturation: 100%;
 }
