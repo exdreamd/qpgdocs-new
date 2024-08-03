@@ -140,7 +140,7 @@ weight: 31
 |  EC800G  |                                                                            |                       **(UIS8850DG)**<br />EC800GCNGA<br />**(UIS8850CM)**<br />EC800GCNLB                        |                                **(UIS8850BM)**<br />EC800GCNLD                                |                                |
 |  EC600E  |                                                                            |                                                                                                                   |                         **(EC618B)**<br />EC600ECNLE<br />EC600ECNCG                          |                                |
 |  EC800E  |                                                                            |                                                                                                                   |                         **(EC618B)**<br />EC800ECNLE<br />EC800ECNCG                          |                                |
-|  EC800Z  |                                                                            |                                                                                                                   |                                **(EC718E)**<br />EC800ZCN10LD                                 |                                |
+|  EC800Z  |                                                                            |                                                                                                                   |                                **(EC718S)**<br />EC800ZCN10LD                                 |                                |
 |   BC25   |                                                                            |                                                                                                                   |                    **(RDA8908A)**<br />BC25PA<br />BC25B5PA<br />BC25B8PA                     |                                |
 
 ## 总结
@@ -171,7 +171,7 @@ weight: 31
 | 展锐 | UIS8850DG |     LTE Cat.1      | 500 MHz<br />Cortex-A5 | 16 MB<br />（512 KB） |  8 MB<br />（640 KB）  |
 | 展锐 | RDA8908A  |       NB-IoT       |   192 MHz<br />MIPS    | 4 MB<br />（512 KB）  |  4 MB<br />（128 KB）  |
 | 移芯 |  EC618B   |     LTE Cat.1      | 204 MHz<br />Cortex-M3 | 1 MB<br />（200 KB）  |  4 MB<br />（300 KB）  |
-| 移芯 |  EC718E   |     LTE Cat.1      | 306 MHz<br />Cortex-M3 | 2 MB<br />（196 KB）  |  4 MB<br />（256 KB）  |
+| 移芯 |  EC718S   |     LTE Cat.1      | 306 MHz<br />Cortex-M3 | 2 MB<br />（196 KB）  |  4 MB<br />（256 KB）  |
 
 {{< callout type="info" >}}
 

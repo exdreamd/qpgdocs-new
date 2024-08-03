@@ -99,7 +99,7 @@ menu:
   # weight 用于排序
   main:
     # 类型一：本地文件夹和文件
-    - name: 入门文档
+    - name: 入门教程
       pageRef: /beginner
       weight: 10
     - name: 技术笔记
@@ -116,7 +116,7 @@ menu:
     # 类型三：外部链接
     - name: GitHub
       weight: 70
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/exdreamd/qpgdocs-new"
       params:
         icon: github
 
@@ -134,9 +134,9 @@ menu:
       pageRef: "/about"
       weight: 20
     # 外部链接
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
+    - identifier: officialSite
+      name: "QuecPython 官方网站 ↗"
+      url: "https://python.quectel.com/"
       weight: 30
 
 params:
