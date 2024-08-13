@@ -3,7 +3,7 @@ title: QuecPigeon 文档
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge link="docs">}}
+{{< hextra/hero-badge link="about">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
   <span>Unofficial</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}

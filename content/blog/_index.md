@@ -6,4 +6,8 @@ cascade:
   type: blog
 ---
 
-![](/images/under_construction.jpg)
+<div style="text-align: center; margin-top: 1em;">
+{{< hextra/hero-badge >}}
+  <span>浮生半日闲</span>
+{{< /hextra/hero-badge >}}
+</div>
