@@ -75,7 +75,9 @@ MicroPython 是 Python 语言的精简高效实现，可理解为一个可以运
 
 解释器（Interpreter）是一个和编译器（Compiler）相对的概念。作为一种解释型语言，Python 的源码是在运行中（而非运行前）被转换为机器可识别和执行的二进制形式。实现这一流程的工具称为解释器。
 
-![](/images/compiler-and-interpreter.png "解释型语言和编译型语言的执行流程差异")
+<!-- 此处可能是个主题自带的路径 bug，待修复 -->
+
+![](../assets/compiler-and-interpreter.png "解释型语言和编译型语言的执行流程差异")
 
 对于初学者而言，解释器可以粗略地理解为 Python 脚本的运行环境。目前，在电脑端，CPython 是最为常用的 Python 解释器。绝大部分资料和工具中涉及的“Python”默认指的就是 CPython。在嵌入式领域，除了 MicroPython，CircuitPython、PikaPython 等解释器也受到国内开发者的欢迎。
 
@@ -85,29 +87,31 @@ MicroPython 是 Python 语言的精简高效实现，可理解为一个可以运
 
 REPL，全称 Read-Eval-Print Loop，即“读取-求值-输出”循环，是一种简单的交互式编程环境。REPL 通常会提供一个 CLI（Command-Line Interface，命令行界面），接收用户的输入，解析并执行后，再将结果返回给用户。从功能和使用方法上，它类似于 Windows 的命令提示符（CMD）或 macOS / Linux 的 Shell。
 
-![](/images/python-repl.gif "Python 的 REPL 环境")
+<!-- 此处可能是个主题自带的路径 bug，待修复 -->
+
+![](../assets/python-repl.gif "Python 的 REPL 环境")
 
 REPL 的优势在于可以使得探索性的编程和调试更加便捷，因为“读取-求值-输出”循环通常会比经典的“编辑-编译-运行-调试”模式要更加方便快捷。REPL 对于学习一门新的编程语言具有很大的帮助，因为它能立刻对初学者的尝试做出回应。
 
 {{% /details %}}
 
-![](/images/mpy-and-rpi-pico.png "使用 MicroPython 开发 Raspberry Pi Pico")
+![](./assets/mpy-and-rpi-pico.png "使用 MicroPython 开发 Raspberry Pi Pico")
 
 目前，MicroPython 已经支持在包括 STM32、Raspberry Pi Pico、ESP32 在内的数十种硬件平台上运行。
 
 ## 认识 QuecPython
 
-![](/images/qpy-intro.png)
+![](./assets/qpy-intro.png)
 
 移远将 MicroPython 移植到了多款无线通信模块上，并增加了大量与通信相关的功能库，称之为 QuecPython。在之前的文章中，我们介绍了基于脚本语言的模块二次开发方式，QuecPython 正是这样的一种开发方式。基于 QuecPython，用户可以使用 Python 脚本对移远通信模块进行快速便捷的二次开发，轻松实现远程控制、数据上云等常用物联网功能。
 
 与传统的单片机开发和 QuecOpen（CSDK）开发相比，QuecPython 开发的最大优势在于其简便性。下图分别展示了传统开发方式和 QuecPython 开发方式的大致流程。不难看出，QuecPython 由于采用了脚本语言，只需要在首次开发前模块内烧录专门的 QuecPython 固件，此后当代码编写和修改完成时即可立即运行，无需繁琐的编译和烧录步骤，显著提升了代码调试的速度。
 
-![](/images/csdk-and-qpy-dev-steps1.png "基于 QuecOpen 和 QuecPython 的模块开发流程对比")
+![](./assets/csdk-and-qpy-dev-steps1.png "基于 QuecOpen 和 QuecPython 的模块开发流程对比")
 
 QuecPython 的另一优势在于内置了丰富而实用的各类功能库。除了 MicroPython 的核心标准库外，QuecPython 还提供了包括语音通话、短信、MQTT、基站定位等在内的一系列与物联网相关的功能库，并实现了针对阿里云、腾讯云等主流云平台的支持。用户仅需不到 20 行代码就可以实现与阿里云的简单对接。
 
-![](/images/qpy-solutions.png "基于 QuecPython 开发的典型产品")
+![](./assets/qpy-solutions.png "基于 QuecPython 开发的典型产品")
 
 目前，QuecPython 方案已经在智能家电、工业控制、智慧交通等场景得到应用。各类公司基于 QuecPython 方案推出的产品包括车载定位器、DTU、4G 对讲机等数十种。同时，因为 QuecPython 上手难度低、开发周期短的特性，特别适用于以下物联网应用场景：
 

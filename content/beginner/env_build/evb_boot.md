@@ -48,7 +48,7 @@ EC600X / EC800X QuecPython EVB 开发板支持两种供电方式：USB 供电和
 4.  长按 PWK 按钮（S1，位于开发板左下角） **2 秒以上** 使模块开机。
 5.  等待板载的 NET 灯（蓝色或绿色灯）开始正常闪烁，表示模块内部的操作系统已经正常启动。
 
-![](/images/qpy_evb_poweron.png "电源输入选择开关和 PWK 按钮在 EC600X / EC800X QuecPython EVB 上的位置")
+![](./assets/qpy_evb_poweron.png "电源输入选择开关和 PWK 按钮在 EC600X / EC800X QuecPython EVB 上的位置")
 
 {{< callout type="warning" >}}
 
@@ -131,15 +131,19 @@ DPYOS DTU 开发板可以使用 USB 供电，也可以使用外部直流电源�
 
 右击 **开始** 按钮，在弹出菜单中选择 **设备管理器** ，展开 **端口（COM 和 LPT）** 分类。
 
-![](/images/check_com_port.png "检查串口是否正常识别")
+![](./assets/check_com_port.png "检查串口是否正常识别")
 
 ### 检查串口名称
 
 在模块成功开机，且电脑端驱动程序安装无误的情况下，您将在 **端口（COM 和 LPT）** 类别下看到多个名称以 `Quectel` 开头的串口，如下图所示。
 
-{{< figure src="/images/ec600u_ports.png" caption="EC600U 模块（标准固件）连接电脑时出现的串口" width=50% >}}
+<!-- 此处可能是个主题自带的路径 bug，待修复 -->
 
-{{< figure src="/images/ec600n_ports.png" caption="EC600N 模块（标准固件）连接电脑时出现的串口" width=50% >}}
+{{< figure src="../assets/ec600u_ports.png" caption="EC600U 模块（标准固件）连接电脑时出现的串口" width=50% >}}
+
+<!-- 此处可能是个主题自带的路径 bug，待修复 -->
+
+{{< figure src="../assets/ec600n_ports.png" caption="EC600N 模块（标准固件）连接电脑时出现的串口" width=50% >}}
 
 {{% /steps %}}
 
@@ -177,4 +181,4 @@ DPYOS DTU 开发板可以使用 USB 供电，也可以使用外部直流电源�
 2.  在交互栏内输入 `AT` 指令，然后按回车键（Enter）进行发送。如果模块能够正常响应，您将在 QPYcom 的接收窗口看到 `OK` 的回复，这说明模块已经成功开机，并且与电脑之间的通信正常。
 3.  接下来，您可以发送 `ATI` 指令，查询模块的版本信息。如果模块能够正常响应，您将在 QPYcom 的接收窗口看到模块的软件版本（Revision）信息。
 
-![](/images/at_test.png "使用 QPYcom 工具进行 AT 通信测试")
+![](./assets/at_test.png "使用 QPYcom 工具进行 AT 通信测试")

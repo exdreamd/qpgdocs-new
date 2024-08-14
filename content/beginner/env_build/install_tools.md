@@ -35,7 +35,7 @@ QuecPython 开发的绝大部分环节，包括固件烧录、REPL 交互、文�
 
 移远为不同系列的模块提供了相应的 USB 驱动程序。您可以在 QuecPython 官网 [下载页面](https://python.quectel.com/download) 的 **驱动** 分类下找到它们。
 
-![](/images/drivers_on_website.png "各类驱动在官网下载页面上的位置")
+![](./assets/drivers_on_website.png "各类驱动在官网下载页面上的位置")
 
 在不同驱动程序的 **描述** 一栏中，您可以找到其适用的模块型号。请根据您所使用的模块型号选择合适的驱动程序。
 
@@ -59,7 +59,7 @@ QuecPython 开发的绝大部分环节，包括固件烧录、REPL 交互、文�
 2. **运行安装程序**: 在解压后的文件夹中，找到 `setup.exe` 文件，右键单击该文件，在弹出的菜单中选择 **以管理员身份运行(A)**。
 3. **按照提示操作**: 根据安装程序的提示，完成驱动程序的安装。通常情况下，您只需要点击 **下一步** 按钮即可完成安装。
 
-![](/images/usb_driver_install.png "以管理员身份安装驱动程序")
+![](./assets/usb_driver_install.png "以管理员身份安装驱动程序")
 
 ### 重启电脑
 
@@ -77,13 +77,13 @@ QPYcom 是移远官方推出的用于 QuecPython 开发的集成式工具，它�
 
 您可以在 QuecPython 官网 [下载页面](https://python.quectel.com/download) 的 **工具** 分类下获取到最新版本的 QPYcom。
 
-![](/images/qpycom_on_website.png "QPYcom 工具在官网下载页面上的位置")
+![](./assets/qpycom_on_website.png "QPYcom 工具在官网下载页面上的位置")
 
 ### 运行 QPYcom
 
 QPYcom 是绿色软件，下载后无需安装，直接解压即可运行。解压完成后，双击 `QPYcom.exe` 文件即可启动 QPYcom 工具。
 
-![](/images/qpycom.png "QPYcom 的主界面")
+![](./assets/qpycom.png "QPYcom 的主界面")
 
 {{< callout type="info" >}}
 

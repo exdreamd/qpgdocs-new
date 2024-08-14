@@ -12,17 +12,17 @@ QuecPython 是一种全新的物联网开发方式，它是移远通信为客户
 
 {{< cards >}}
 
-{{< card link="./iot_intro/" title="初识物联网" image="/images/internet-of-things.png" subtitle="物联网的定义、组成和项目开发流程" >}}
+{{< card link="./iot_intro/" title="初识物联网" image="assets/internet-of-things.png" subtitle="物联网的定义、组成和项目开发流程" >}}
 
-{{< card link="./lowcode_intro/" title="低代码开发：物联网开发的未来趋势" image="/images/mpy-oled.gif" subtitle="一种适应时代变化和技术进步的编程范式" >}}
+{{< card link="./lowcode_intro/" title="低代码开发：物联网开发的未来趋势" image="assets/mpy-oled.gif" subtitle="一种适应时代变化和技术进步的编程范式" >}}
 
-{{< card link="./cellular_intro/" title="无线通信和蜂窝网络" image="/images/5g-evolution.png" subtitle="Cat.1、Cat.4 和其他" >}}
+{{< card link="./cellular_intro/" title="无线通信和蜂窝网络" image="assets/5g-evolution.png" subtitle="Cat.1、Cat.4 和其他" >}}
 
-{{< card link="./module_intro/" title="无线通信模块及开发" image="/images/qcx216-diagram.png" subtitle="模块的结构、功能，AT 指令和 CSDK 开发" >}}
+{{< card link="./module_intro/" title="无线通信模块及开发" image="assets/qcx216-diagram.png" subtitle="模块的结构、功能，AT 指令和 CSDK 开发" >}}
 
-{{< card link="./qpy_intro/" title="QuecPython 简介" image="/images/qpy-intro.png" subtitle="一种全新的物联网开发方式" >}}
+{{< card link="./qpy_intro/" title="QuecPython 简介" image="assets/qpy-intro.png" subtitle="一种全新的物联网开发方式" >}}
 
-{{< card link="./qpy_differences/" title="QuecPython 与传统开发方式的差异" image="/images/mpy-and-rpi-pico.png" subtitle="避免被过往经验所误导" >}}
+{{< card link="./qpy_differences/" title="QuecPython 与传统开发方式的差异" image="assets/mpy-and-rpi-pico.png" subtitle="避免被过往经验所误导" >}}
 
 {{< /cards >}}
 

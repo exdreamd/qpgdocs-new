@@ -55,7 +55,7 @@ next: /beginner/env_build/finish
 - **EC800E 双排针核心板**: 请在上电前将 **IO19** 引脚与 **GND** 引脚相连接，然后上电，待模块进入下载模式后再断开 IO19 和 GND 之间的连接。
 - **自行设计制作的电路板**: 请参考相应型号的《硬件设计手册》中的 **USB_BOOT** 这一章节进行操作。
 
-![](/images/boot_button.png "BOOT 按键的位置")
+![](./assets/boot_button.png "BOOT 按键的位置")
 
 {{< callout type="warning" >}}
 
@@ -81,7 +81,7 @@ next: /beginner/env_build/finish
 
 QPYcom 是移远官方推出的 QuecPython 集成开发工具，它提供了图形化界面，可以方便地进行固件烧录。具体步骤如下：
 
-![](/images/qpycom_burn_fw.png "QPYcom 固件烧录流程")
+![](./assets/qpycom_burn_fw.png "QPYcom 固件烧录流程")
 
 1.  打开 QPYcom 工具，切换到 **下载** 选项卡。
 2.  点击左下角的 **创建** 按钮，创建新项目。
@@ -107,7 +107,7 @@ QPYcom 是移远官方推出的 QuecPython 集成开发工具，它提供了图�
 
 QFlash 工具是移远提供的另一种固件烧录工具，它提供了更加底层的控制功能，适用于一些特殊情况，例如修复模块故障或烧录定制固件。
 
-![](/images/qflash_burn_fw.png "QFlash 正常加载固件的状态")
+![](./assets/qflash_burn_fw.png "QFlash 正常加载固件的状态")
 
 1. 以管理员身份运行 QFlash 程序。
 2. 点击 **COM Port** 右侧的下拉列表，选择固件烧录串口所对应的串口号（可打开设备管理器确认）。无需指定波特率。

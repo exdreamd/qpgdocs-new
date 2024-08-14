@@ -77,7 +77,7 @@ print("Hello, QuecPython!")
 
 按下回车键后，模块会立即执行您的代码，并在终端窗口中输出 `Hello, QuecPython!`。
 
-![](/images/repl.png "基于 REPL 串口的 Python 交互示意图")
+![](./assets/repl.png "基于 REPL 串口的 Python 交互示意图")
 
 {{< callout type="warning" >}}
 
