@@ -5,4 +5,4 @@ draft: false
 weight: 300
 ---
 
-![](./assets/under_construction.jpg)
+![](/images/under_construction.jpg)
