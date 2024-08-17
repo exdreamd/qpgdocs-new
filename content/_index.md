@@ -3,7 +3,7 @@ title: QuecPigeon 文档
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge link="about">}}
+{{< hextra/hero-badge link="/about/">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
   <span>Unofficial</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -22,7 +22,7 @@ layout: hextra-home
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="现在开始" link="beginner/learning_path" >}}
+{{< hextra/hero-button text="现在开始" link="/beginner/learning_path/" >}}
 </div>
 
 <div class="hx-mt-6"></div>
@@ -31,7 +31,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="入门教程"
     subtitle="快速完成产品选型和开发环境搭建"
-    link="beginner"
+    link="/beginner/"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/arduino.png"
     imageClass="hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -40,7 +40,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="技术笔记"
     subtitle="开发过程中的重要细节和必要参考"
-    link="notes"
+    link="/notes/"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
     image="/images/breaker_panel.png"
     imageClass="hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
@@ -49,7 +49,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="个人随笔"
     subtitle="博客性质的单篇非技术文章"
-    link="blog"
+    link="/blog/"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/coffee_code.png"
     imageClass="hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
