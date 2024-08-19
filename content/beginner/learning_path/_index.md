@@ -41,7 +41,7 @@ QuecPython 虽然简化了开发流程，但仍然需要开发者具备一定的
 
 ### 学习 Python 语法
 
-QuecPython 与电脑端的标准 Python（CPython）3.4 版本的核心语法相兼容。如果您想使用 QuecPython 进行开发，您需要先掌握 Python 3 的基础语法。您可以参考 [菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html) 等网站来学习 Python 3 的基础知识。
+QuecPython 与电脑端的标准 Python（CPython）3.4 版本的核心语法相兼容。如果您想使用 QuecPython 进行开发，您需要先掌握 Python 3 的基础语法。您可以参考网站上的 [基础语法](../syntax) 章节来学习 Python 3 的基础知识。
 
 但是，您也要注意，QuecPython 和电脑端的 CPython 并不完全相同。它们在基础语法上是兼容的，但是在内置的库（可复用的功能组件）方面有很大的差异。这意味着，相当一部分依赖于库的 Python 代码，无法在 QuecPython 上直接运行。您在开发时，必须考虑到这一点。
 

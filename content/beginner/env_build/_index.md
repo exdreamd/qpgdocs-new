@@ -1,5 +1,5 @@
 ---
-title: 开发环境搭建
+title: 环境搭建
 date: 2024-07-27T16:41:35+08:00
 draft: false
 weight: 40
