@@ -171,7 +171,7 @@ weight: 31
 | 展锐 | UIS8850DG |     LTE Cat.1      | 500 MHz<br />Cortex-A5 | 16 MB<br />（512 KB） |  8 MB<br />（640 KB）  |
 | 展锐 | RDA8908A  |       NB-IoT       |   192 MHz<br />MIPS    | 4 MB<br />（512 KB）  |  4 MB<br />（128 KB）  |
 | 移芯 |  EC618B   |     LTE Cat.1      | 204 MHz<br />Cortex-M3 | 1 MB<br />（200 KB）  |  4 MB<br />（300 KB）  |
-| 移芯 |  EC718S   |     LTE Cat.1      | 306 MHz<br />Cortex-M3 | 2 MB<br />（196 KB）  |  4 MB<br />（256 KB）  |
+| 移芯 |  EC718E   |     LTE Cat.1      | 306 MHz<br />Cortex-M3 | 2 MB<br />（196 KB）  |  4 MB<br />（256 KB）  |
 
 {{< callout type="info" >}}
 

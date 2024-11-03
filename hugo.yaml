@@ -165,7 +165,7 @@ params:
   theme:
     # light | dark | system
     # 根据系统的暗黑模式自动启用
-    default: system
+    default: light
     # 是否显示暗黑模式切换按钮
     displayToggle: true
 
